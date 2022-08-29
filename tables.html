@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .table-container {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 15px;
+        }
+
+        .striped:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .dark:nth-child(even) {
+            background-color: #2C3639;
+            ;
+        }
+
+        .dark:nth-child(odd) {
+            background-color: #343a40;
+        }
+
+        tr.hover:hover {
+            background-color: #f2f2f2;
+        }
+
+        tr.dark-hover {
+            background-color: #343434;
+            color: #dddddd;
+        }
+
+        .dark-hover:hover {
+            background-color: #343a40;
+            color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="table-container">
+        <h2>Tables</h2>
+        <table>
+            <tr class="striped">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Ph. No.</th>
+            </tr>
+            <tr class="striped">
+                <td>Anonymous 1</td>
+                <td>name1@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="striped">
+                <td>Anonymous 2</td>
+                <td>name2@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="striped">
+                <td>Anonymous 3</td>
+                <td>name3@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="striped">
+                <td>Anonymous 4</td>
+                <td>name4@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+        </table>
+    </div>
+    <div class="table-container">
+        <h2>Table Dark</h2>
+        <table style="color: white;">
+            <tr class="dark">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Ph. No.</th>
+            </tr>
+            <tr class="dark">
+                <td>Anonymous 1</td>
+                <td>name1@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="dark">
+                <td>Anonymous 2</td>
+                <td>name2@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="dark">
+                <td>Anonymous 3</td>
+                <td>name3@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="dark">
+                <td>Anonymous 4</td>
+                <td>name4@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+        </table>
+        <h2>Tables Hover</h2>
+        <table>
+            <tr class="hover">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Ph. No.</th>
+            </tr>
+            <tr class="hover">
+                <td>Anonymous 1</td>
+                <td>name1@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="hover">
+                <td>Anonymous 2</td>
+                <td>name2@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="hover">
+                <td>Anonymous 3</td>
+                <td>name3@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="hover">
+                <td>Anonymous 4</td>
+                <td>name4@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+        </table>
+
+        <h2>Tables Dark Hover</h2>
+        <table>
+            <tr class="dark-hover">
+                <th>Name</th>
+                <th>Email</th>
+                <th>Ph. No.</th>
+            </tr>
+            <tr class="dark-hover">
+                <td>Anonymous 1</td>
+                <td>name1@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="dark-hover">
+                <td>Anonymous 2</td>
+                <td>name2@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="dark-hover">
+                <td>Anonymous 3</td>
+                <td>name3@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+            <tr class="dark-hover">
+                <td>Anonymous 4</td>
+                <td>name4@email.com</td>
+                <td>91XXXXXXXX</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
